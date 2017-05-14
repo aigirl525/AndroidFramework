@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<Button
+    android:text="ListView中使用"
+    android:id="@+id/listview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<Button
+    android:text="GridView中使用"
+    android:id="@+id/gridview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<Button
+    android:text="Fragment中使用"
+    android:id="@+id/fragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <Button
+    android:text="ListView在ViewPager"
+    android:id="@+id/viewpager"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <Button
+    android:text="viewpager2"
+    android:id="@+id/viewpager2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <Button
+    android:text="WebView中使用"
+    android:id="@+id/webview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+
+</LinearLayout>

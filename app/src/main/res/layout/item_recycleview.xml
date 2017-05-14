@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        android:gravity="center">
+            <ImageView
+                android:id="@+id/item_recycleview_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/demo"/>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/item_recycleview_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="content"/>
+    </LinearLayout>
+</LinearLayout>

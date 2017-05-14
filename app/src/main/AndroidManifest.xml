@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.yinrong.androidframework" >
+
+    <uses-sdk tools:overrideLibrary="android.support.v4" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".LauncherActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".EventBus.EventBusActivity" />
+        <activity android:name=".EventBus.EventBusSendActivity" />
+        <activity android:name=".ButterKnife.ButterKnifeActivity" />
+        <activity android:name=".Picasso.PicassoActivity" />
+        <activity android:name=".Picasso.PicassoListViewActivity" />
+        <activity android:name=".Picasso.PicassoTransformationActivity" />
+        <activity android:name=".Afinal.AfinalActivity" />
+        <activity android:name=".xUtils.xUtils3Activity" />
+        <activity android:name=".xUtils.FragmentxUtils3Activity" />
+        <activity android:name=".xUtils.xUtils3NetActivity" />
+        <!-- 设置listview彩色分割线  android:theme="@style/listDividerTheme" -->
+        <activity
+            android:name=".RecyclerView.RecyclerViewActivity"
+            android:theme="@style/listDividerTheme" />
+
+        <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+        <activity android:name=".PullToRefresh.PullToRefreshActivity" />
+        <activity android:name=".PullToRefresh.PullToRefreshGridActivity" />
+        <activity android:name=".PullToRefresh.PullToRefreshListActivity" />
+        <activity android:name=".PullToRefresh.PullToRefreshListFragmentActivity" />
+        <activity android:name=".PullToRefresh.PullToRefreshListInViewPagerActivity" />
+        <activity android:name=".PullToRefresh.PullToRefreshViewPagerActivity" />
+        <activity android:name=".PullToRefresh.PullToRefreshWebViewActivity" />
+        <activity android:name=".Fresco.FrescoActivity" />
+        <activity android:name=".Fresco.FrescoSpimgActivity" />
+        <activity android:name=".Fresco.FrescoCropActivity" />
+        <activity android:name=".Fresco.FrescoCircleAndCornerActivity" />
+        <activity
+            android:name=".Fresco.FrescoJpegActivity"
+            android:label="@string/title_activity_fresco_jpeg"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Fresco.FrescoGifActivity" />
+        <activity android:name=".Fresco.FrescoMultiActivity" />
+        <activity android:name=".Fresco.FrescoListenerActivity" />
+        <activity android:name=".Fresco.FrescoResizeActivity" />
+        <activity android:name=".Fresco.FrescoModifyImgActivity" />
+        <activity android:name=".Fresco.FrescoAutoSizeImgActivity" />
+        <activity
+            android:name=".OpenDanmaku.OpenDanmakuActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".countDownView.CountdownViewMainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity android:name=".countDownView.DynamicShowActivity" >
+        </activity>
+        <activity android:name=".countDownView.RecyclerViewActivity" >
+        </activity>
+        <activity android:name=".countDownView.CountdownListViewActivity" >
+        </activity>
+        <activity android:name=".banner.activity.BannerAnimationActivity" >
+        </activity>
+        <activity android:name=".banner.activity.BannerStyleActivity" >
+        </activity>
+        <activity android:name=".banner.activity.CustomBannerActivity" >
+        </activity>
+        <activity android:name=".banner.activity.IndicatorPositionActivity" >
+        </activity>
+        <activity
+            android:name=".banner.activity.BannerMainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity android:name=".TabLayoutViewPager.activity.TabLayoutViewPagerMainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+    </application>
+
+</manifest>

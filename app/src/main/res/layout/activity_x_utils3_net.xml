@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_x_utils3_net"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yinrong.androidframework.xUtils.xUtils3NetActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_get_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get和post请求"/>
+    <Button
+        android:id="@+id/btn_downloadfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="大文件下载"/>
+    <Button
+        android:id="@+id/btn_uploadfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="大文件上传"/>
+    <TextView
+        android:id="@+id/tv_result"
+        android:text="显示结果"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_picasso"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yinrong.androidframework.Picasso.PicassoActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:text="基本方法使用"
+        android:id="@+id/btn_picasso_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="ListView中加载网络图片"
+        android:id="@+id/btn_picasso_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="图片变换"
+        android:id="@+id/btn_picasso_transformations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical" >
+           <ImageView
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:layout_gravity="center"
+               android:id="@+id/iv_picasso1" />
+           <ImageView
+               android:layout_gravity="center"
+               android:id="@+id/iv_picasso2"
+               android:layout_width="200dp"
+               android:layout_height="200dp" />
+           <ImageView
+               android:layout_gravity="center"
+               android:id="@+id/iv_picasso3"
+               android:layout_width="200dp"
+               android:layout_height="200dp" />
+       </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>
